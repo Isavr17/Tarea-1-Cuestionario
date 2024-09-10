@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario tarea</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ruta/al/favicon.ico" type="image/x-icon">
+    
+</head>
+ <body>
+    <main>
+        <section class="formulario">
+            <h1>Nuevo Telefono</h1>
+            <p class="descripcion">Especificaciones del Dispositivo</p>
+            <div class="pregunta-texto">
+                <label for="texto-sencilla" class="etiqueta-pregunta">Dinos tu Nombre:</label>
+                <input type="text" id="texto-sencilla" name="texto-sencilla" class="texto-sencilla">
+            </div>
+
+            <div class="pregunta-opcion-multiple">
+                <legend class="legenda">Memoria Ram:</legend>
+                <ul class="opciones-lista">
+                    <li><label><input type="radio" name="opcion-multiple" value="op1" class="radio-opcion"> 6 gb</label></li>
+                    <li><label><input type="radio" name="opcion-multiple" value="op2" class="radio-opcion"> 8 gb</label></li>
+                    <li><label><input type="radio" name="opcion-multiple" value="op3" class="radio-opcion"> 12 gb</label></li>
+                </ul>
+            </div>
+            <fieldset class="incisos-redondos">
+                <legend class="legenda">Memoria interna:</legend>
+                <ul class="incisos-lista">
+                    <li><label><input type="radio" name="incisos-redondos" value="inciso1" class="radio-inciso"> 64 gb</label></li>
+                    <li><label><input type="radio" name="incisos-redondos" value="inciso2" class="radio-inciso"> 128 gb</label></li>
+                    <li><label><input type="radio" name="incisos-redondos" value="inciso3" class="radio-inciso"> 256 gb</label></li>
+                </ul>
+            </fieldset>
+            <div class="pregunta-cuadro">
+                <legend class="legenda">Marca:</legend>
+                <ul class="cuadro-lista">
+                    <li>
+                        <label for="iphone">iPhone</label>
+                        <input type="checkbox" id="iphone" name="marca" value="iPhone">
+                    </li>
+                    <li>
+                        <label for="samsung">Samsung</label>
+                        <input type="checkbox" id="samsung" name="marca" value="Samsung">
+                    </li>
+                    <li>
+                        <label for="huawei">Huawei</label>
+                        <input type="checkbox" id="huawei" name="marca" value="Huawei">
+                    </li>
+                </ul>
+            </div>            
+            <legend class="legenda">Añade tus observaciones:</legend>
+            <textarea id="area-texto" name="area-texto" class="area-texto"></textarea>
+            
+            <div class="enviar-formulario">
+                <button type="submit" class="btn-enviar">Enviar Formulario</button>
+            </div>
+        </section>
+    </main>
+ </body>
+
+</html>

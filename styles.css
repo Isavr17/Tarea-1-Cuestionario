@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    background-color: #e0e0e0;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.descripcion {
+    font-style: italic;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.etiqueta-pregunta,
+.legenda {
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.texto-sencilla {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.opcion-multiple .opciones-lista {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.opcion-multiple .opciones-lista li {
+    margin-bottom: 10px;
+}
+
+.radio-opcion {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #2980b9;
+    cursor: pointer;
+}
+
+.radio-opcion:checked {
+    background-color: #2980b9;
+}
+
+.incisos-redondos .incisos-lista {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.incisos-redondos .incisos-lista li {
+    margin-bottom: 10px;
+}
+
+.radio-inciso {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #2980b9;
+    cursor: pointer;
+}
+
+.radio-inciso:checked {
+    background-color: #2980b9;
+}
+
+.pregunta-cuadro .cuadro-lista {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pregunta-cuadro .cuadro-lista li {
+    margin-bottom: 10px;
+}
+
+.check-cuadro {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+}
+
+.btn-enviar {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario {
+    background-color: #e0e0e0;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.enviar-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px; 
+}
