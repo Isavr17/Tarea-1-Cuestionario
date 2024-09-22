@@ -135,3 +135,43 @@ h1 {
     align-items: flex-end;
     margin-top: 20px; 
 }
+
+/* media queries que agrege*/
+@media (max-width: 768px) {
+    .formulario {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .pregunta-texto,
+    .pregunta-opcion-multiple,
+    .incisos-redondos,
+    .pregunta-cuadro {
+        margin-bottom: 20px;
+    }
+
+    .etiqueta-pregunta,
+    .legenda {
+        font-size: 16px;
+    }
+
+    .texto-sencilla,
+    .radio-opcion,
+    .radio-inciso,
+    #area-texto {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .opciones-lista,
+    .incisos-lista,
+    .cuadro-lista {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .btn-enviar {
+        width: 100%;
+        max-width: 200px;
+    }
+}
